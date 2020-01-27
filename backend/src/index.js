@@ -11,7 +11,7 @@ const server = http.Server(app);
 setupWebsocket(server);
 
 mongoose.connect(
-  "mongodb+srv:upload:upload123@cluster0-cu0ve.mongodb.net/week10?retryWrites=true&w=majority",
+  "mongodb+srv:upload:upload123@cluster0-cu0ve.mongodb.net/week10?retryWrites=true&w=majority", 
   {
     useNewUrlParser: true,
     useUnifiedTopology: true

@@ -8,14 +8,13 @@
 
 
 
-<p align="center">A little description about your project</p>
+<p align="center">The monorepo of a mobile and web app, to locate devs in your vicinity, built in a week Omnistackt</p>
 <p align="center">
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
   </a>
 </p>
 
-[//]: # "Add your gifs/images here:"
 <div>
   <img src="IMAGE_1_URL" alt="demo" height="425">
   <img src="IMAGE_2_URL" alt="demo" height="425">
