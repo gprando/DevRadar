@@ -19,14 +19,8 @@ mongoose.connect(
 );
 
 app.use(cors());
-app.use(express.json()); // vai entender requisiçoes com corpo JSON
+app.use(express.json()); 
 app.use(routes);
 
 server.listen(3333);
 
-// Metodos HTTP: GET, POST, PUT, DELETE
-
-// Tipos de parâmetros:
-// QUERY Params: request.query (EX: ?search=Diego) --> url | usados para filtros, ordenações, paginações
-// ROUTE Params: request.params (PUT e DELETE) --> Identificar um recurso na alteração ou remoção
-// BODY: request.body (Dados para criação ou alteração de um registro)

@@ -1,8 +1,6 @@
 <h1 align="center">
 <br>
-<style>
-#titulo: color:#00FF00
-</style>
+
 <h1 id="titulo" align="center"  > Dev Radar  
 
 <br>
@@ -31,10 +29,34 @@ This app features all the latest tools and practices in mobile development!
 - ⚛️ **React Js** — A JavaScript library for building user interfaces
 - ⚛️ **React Native** — A lib that provides a way to create native apps for Android and iOS
 - 💹 **Node Js** — A web framework for Node Js
+- 📄 **MongoDB** — A cross-platform and open-source document-oriented database
+- ♻️ **Socket IO** — A library for realtime web applications 
 
 ## Getting started
 
-Describe here the way to use/install your project
+1. Clone this repo using `git clone git@github.com:CarlosLevir/tindev.git`
+2. Move yourself to the appropriate directory: `cd DevRadar`<br />
+3. Run `yarn` to install dependencies<br />
+
+### Getting started with the backend server
+
+1. Move yourself to the backend folder: `cd backend`
+2. configure your connection to mongodb within the index.js file in ` mongoose.connect(
+  "mongodb+srv://<username>:<password>@cluster0-lllu0.mongodb.net/week10?retryWrites=true&w=majority" `
+3. Run `yarn dev` to start the server
+
+### Getting started with the frontend app
+
+1. Move yourself to the frontend folder: `cd frontend`
+2. Run `yarn start` to start the web application
+
+### Getting started with the mobile app
+
+1. Move yourself to the mobile folder: `cd mobile`
+2. Run `react-native run-ios` (or `run-android` if your prefer) to start the mobile app
+
+Note: If you choose to start the mobile app in the android emulator, you will have to start the emulator before using
+the `run-android` command.
 
 
 ## License
