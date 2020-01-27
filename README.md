@@ -15,14 +15,13 @@
   </a>
 </p>
 
-<div>
-  <img src="IMAGE_1_URL" alt="demo" height="425">
-  <img src="IMAGE_2_URL" alt="demo" height="425">
+<div align="center">
+  <img src="imagens/web.png" alt="demo" height="425">
+  <img src="imagens/mobile.jpg"  alt="demo" height="425">
 </div>
 
 <hr />
 ## Features
-[//]: # "Add the features of your project here:"
 This app features all the latest tools and practices in mobile development!
 
 - ⚛️ **React Js** — A JavaScript library for building user interfaces
@@ -40,9 +39,7 @@ This app features all the latest tools and practices in mobile development!
 ### Getting started with the backend server
 
 1. Move yourself to the backend folder: `cd backend`
-2. configure your connection to mongodb within the index.js file in  
- "mongoose.connect(
-  "mongodb+srv://<username>:<password>... "
+2. configure your connection to mongodb within the index.js file 
 3. Run `yarn dev` to start the server
 
 ### Getting started with the frontend app
