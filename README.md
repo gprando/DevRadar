@@ -1,12 +1,5 @@
-<h1 align="center">
-<br>
-
 <h1 id="titulo" align="center"  > Dev Radar  
-
 <br>
-
-
-
 
 <p align="center">The monorepo of a mobile and web app, to locate devs in your vicinity, built in a week Omnistackt</p>
 <p align="center">
@@ -21,7 +14,6 @@
 </div>
 
 <hr />
-## Features
 This app features all the latest tools and practices in mobile development!
 
 - ⚛️ **React Js** — A JavaScript library for building user interfaces
