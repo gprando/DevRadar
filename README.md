@@ -34,15 +34,16 @@ This app features all the latest tools and practices in mobile development!
 
 ## Getting started
 
-1. Clone this repo using `git clone git@github.com:CarlosLevir/tindev.git`
+1. Clone this repo using `https://github.com/gprando/DevRadar.git`
 2. Move yourself to the appropriate directory: `cd DevRadar`<br />
 3. Run `yarn` to install dependencies<br />
 
 ### Getting started with the backend server
 
 1. Move yourself to the backend folder: `cd backend`
-2. configure your connection to mongodb within the index.js file in ` mongoose.connect(
-  "mongodb+srv://<username>:<password>@cluster0-lllu0.mongodb.net/week10?retryWrites=true&w=majority" `
+2. configure your connection to mongodb within the index.js file in  
+ "mongoose.connect(
+  "mongodb+srv://<username>:<password>... "
 3. Run `yarn dev` to start the server
 
 ### Getting started with the frontend app
